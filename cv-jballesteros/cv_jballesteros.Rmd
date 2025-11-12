@@ -94,13 +94,7 @@ tribble(
   "Competitiveness Manager", "Coparmex", "Colima, México", "Jun. 2016 -- Aug. 2018",
     list(
     "Directed capacity-building programs on business administration, productivity, tax reforms, and labor rights for affiliated companies.",
-    "Produced research on security, justice, and economic trends to guide strategic decision-making for members and stakeholders."),
-  
-"Research Intern", "APEC Study Center", "Colima, México", "Jan. 2015 -- Aug. 2015",
-    list(
-    "Assisted senior researchers in analyzing Colima’s strategic position within Asia-Pacific Economic Cooperation (APEC) dynamics, examining international trade flows and potential economic partnerships.",
-    "Gathered and synthesized economic data from multiple sources, contributing to evidence-based policy recommendations aimed at enhancing regional competitiveness.",
-    "Drafted research summaries and co-authored reports, ensuring timely dissemination of insights to stakeholders in academia, government, and the private sector.")
+    "Produced research on security, justice, and economic trends to guide strategic decision-making for members and stakeholders.")
 ) %>%
 detailed_entries(role, dates, company, loc, details)
 ```
