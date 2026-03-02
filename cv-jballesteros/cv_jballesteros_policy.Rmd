@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # About me
 
-Master of Public Policy candidate at the University of Chicago with a quantitative focus on causal inference, program evaluation, and data analytics. Nine years of consulting and analytical experience supporting governments, multilateral-funded programs, and civil society organizations across Latin America, including projects for the U.S. Department of State, USAID-Chemonics, and AMEXCID. Proven ability to design monitoring and evaluation frameworks, conduct impact assessments of social programs, and translate evidence into policy recommendations. Proficient in Python, R, and SQL for end-to-end data solutions, from extraction and econometric modeling to visualization and decision-ready reporting.
+Master of Public Policy candidate at the University of Chicago with a quantitative focus on causal inference, program evaluation, and data analytics. Nine years of consulting and analytical experience supporting governments, private companies, multilateral-funded programs, and civil society organizations across Latin America, including projects for the U.S. Department of State, USAID, SANOFI, among others. Proven ability to design methodologies, monitoring and evaluation frameworks, conduct impact assessments of social programs, and translate evidence into policy and business recommendations. Proficient in Python, R, and SQL for end-to-end data solutions, from extraction and econometric modeling to visualization and decision-ready reporting.
 
 # Education
 
