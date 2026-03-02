@@ -4,7 +4,7 @@ date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: MPP (candidate), Data Analyst, Strategy
 position: Master of Public Policy (MPP) candidate at the University of Chicago
 address: Chicago, IL
-website: jballesterosc.github.io
+www: jballesterosc.github.io
 email: jballesteros@uchicago.edu
 github: jballesterosc
 linkedin: jay-ballesteros
@@ -22,11 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # About me
 
-I am a Master of Public Policy (MPP) candidate at the University of Chicago, focused on data analytics, economics, and policy. I have 9+ years of consulting experience supporting governments, nonprofits, and private sector clients across Latin America. My work spans both analysis and build, translating messy problems into practical solutions such as tools, workflows, and decision systems that improve how teams plan, execute, and measure results.
-
-I combine structured problem solving with technical skills in Python, R, SQL, and Looker Studio to build end to end data solutions, from data extraction and cleaning to analysis, visualization, and decision ready reporting.
-
-Previously, I worked at DiDi Global Inc., Fundación IDEA, C230 Consulting, and the International Republican Institute, among others. And I’ve delivered projects for clients including the U.S. Department of State, Sanofi, USAID, Chemonics, AMEXCID, Fundación Amparo and multiple state governments in México
+Master of Public Policy candidate at the University of Chicago with a quantitative focus on causal inference, program evaluation, and data analytics. Nine years of consulting and analytical experience supporting governments, multilateral-funded programs, and civil society organizations across Latin America, including projects for the U.S. Department of State, USAID-Chemonics, and AMEXCID. Proven ability to design monitoring and evaluation frameworks, conduct impact assessments of social programs, and translate evidence into policy recommendations. Proficient in Python, R, and SQL for end-to-end data solutions, from extraction and econometric modeling to visualization and decision-ready reporting.
 
 # Education
 
@@ -36,12 +32,13 @@ tribble(
 
 "Master of Public Policy (MPP), Candidate", "University of Chicago, Harris School of Public Policy", "Chicago, IL", "Sep. 2025 -- Present",
 list(
-"Quantitative focus with statistics, microeconomics, analytical politics, program evaluation, and causal inference",
+"Quantitative concentration: Statistics and Econometrics. Microeconomics, and Analytical Politics",
+"Upcoming coursework: Impact Evaluation, Programming for Data Analytics (Python), and Corporate Finance",
 "Applied coursework using Python and R for data analysis, visualization, and experimental design"),
 
-"B.A. International Relations", "Universidad de Colima", "Colima, México", "Aug. 2012 -- Jun. 2016", "Emphasis on the Asia-Pacific region and international security",
-
-"Erasmus Mundus program", "Universidad de León", "León, Spain", "Sep. 2015 -- May. 2016", "Coursework focused on finance and international trade",
+"B.A. International Relations", "Universidad de Colima", "Colima, México", "Aug. 2012 -- Jun. 2016", 
+list("Emphasis on the Asia-Pacific region and international security",
+     "Erasmus Mundus exchange at Universidad de León (Spain), coursework in finance and international trade"),
 ) %>%
 detailed_entries(degree, dates, uni, loc, details)
 ```
@@ -53,64 +50,50 @@ detailed_entries(degree, dates, uni, loc, details)
 tribble(
 ~ role, ~ company, ~ loc, ~ dates, ~ details,
   "Senior Operations Analyst - Mature Cities", "DiDi Global Inc.", "Mexico City", "Apr. 2025 -- Nov. 2025",
-    list("Led end-to-end marketplace operations across three key Mexican cities—overseeing a combined annual GMV of ~MXN 3.7 billion and managing a weekly incentives portfolio averaging MXN 4 million—optimizing trips, fulfillment rates, and user satisfaction through A/B tests and controlled experiments",
-         "Designed, executed, and tracked supply–demand balancing tactics (incentives, targeted communications, dynamic pricing) using Python, SQL, Looker Studio, and advanced spreadsheets",
-         "Analyzed business performance and local externalities, delivering weekly actionable insights to drive campaigns and growth",
-         "Partnered with regional and central teams (pricing, marketing, strategy, CX) to scale local pilots and adapt best practices, responding swiftly to operational disruptions",
-         "Produced comprehensive weekly reports for senior leadership, monitoring KPIs (daily/weekly trips, fulfillment and cancellation rates, incentive adoption, user activation and retention) and outlining short-term action plans"),
+    list("Led marketplace operations across three Mexican cities, overseeing a combined annual GMV of MXN 3.7B and a weekly incentives portfolio averaging MXN 4M",
+         "Designed and executed randomized and quasi-experimental tests (A/B testing) to evaluate supply-demand balancing tactics on trips, fulfillment rates, user satisfaction, and other KPIs",
+         "Built performance dashboards and automated reporting pipelines using Python, SQL, and Looker Studio; produced weekly analytical briefs for senior leadership with experiment results and action plans",
+         "Partnered with regional and central teams (pricing, marketing, strategy, CX) to scale successful pilots and adapt evidence-based practices across markets"),
 
   "Co-founder and Data Analyst", "Datahué", "Mexico City", "Aug. 2023 -- Present",
     list(
-    "Developed and implemented a Monitoring, Evaluation, Accountability, and Learning (MEAL) strategy for Fundación Amparo, designing 60+ performance indicators to track and evaluate impact",
-    "Consolidated 100+ databases into a centralized repository leveraging Python, Google Apps Script (Sheets), SQL, and Looker Studio, improving data integrity and operational efficiency",
-    "Led a three-person team for data collection, cleaning, and reporting; translated findings into actionable recommendations for program improvement",
-    "Collaborated with cross-functional stakeholders (operational staff, data capturers, project leaders, and executive directors) to translate data insights into actionable recommendations for ongoing program enhancement"),
+    "Designed and implemented a MEAL strategy for Fundación Amparo, including 60+ performance indicators to track program outcomes and inform decision-making",
+    "Consolidated 100+ databases into a centralized repository using Python, Google Apps Script, SQL, and Looker Studio; led a three-person team for data collection, cleaning, and evidence-based reporting to executive directors"),
 
   "Strategy Analyst", "Soy+ (soymas.la)", "Mexico City", "Mar. 2025 -- Apr. 2025",
     list(
-    "Aligned technology, commercial, and communications teams by translating requirements into actionable data-collection and analysis tools",
-    "Built automated Looker Studio dashboards connected via APIs to real-time databases to track conversion rates and weekly performance",
-    "Unified Mailchimp, Meta API, Supabase, and Vercel data into structured datasets for campaign evaluation, user segmentation, and behavior analysis",
-    "Collaborated in the development of the backend of internal tools to ensure interoperability between systems and traceability of data used in strategic reports"),
+    "Built automated dashboards connected via APIs to real-time databases; unified Mailchimp, Meta API, Supabase, and Vercel data into structured datasets for campaign evaluation and user segmentation"),
 
   "Senior Analyst", "C230 Consulting and Fundación IDEA", "Mexico City", "Jan. 2021 -- Mar. 2025",
-    list("Delivered eight projects across security and justice reform, monitoring and evaluation, interinstitutional coordination, process optimization, and market analysis for clients including the U.S. Department of State, SANOFI, and USAID–Chemonics",
-    "Developed institutional--strengthening toolkits for State Attorney General Offices, leading process mapping and stakeholder engagement to improve investigative outcomes",
-    "Created data-collection instruments for more than 80 private--sector stakeholders in Honduras and El Salvador to inform the AMEXCID Jovenes Construyendo el Futuro project",
-    "Designed continuous improvement tools for investigative police training programs, integrating quantitative and qualitative methods to strengthen law enforcement capacity and ensure data-driven decision-making",
-    "Authored comprehensive analyses of the Impulso Nuevo León 2022 Loan Guarantee Program, measuring pre- and post-treatment data to evaluate changes in beneficiaries’ sales and employment levels",
-    "Conducted an in-depth study on the quality of life of individuals with Atopic Dermatitis (AD) for SANOFI, utilizing interviews, surveys, and advanced data analytics to produce evidence-based recommendations for national health institutions",
-    "Advised on best practices in agriculture, youth workforce development, and migration across El Salvador, Honduras, Guatemala, and Mexico, identifying enabling conditions and essential criteria for replicable initiatives",
-    "Built measurement frameworks to systematically monitor recidivism in civic and criminal justice systems, empowering municipalities to track progress and improve outcomes in alternative dispute resolution mechanisms"),
+    list("Delivered eight projects in security/justice reform, M\\&E, interinstitutional coordination, process optimization, market analysis and development for government counterparts and international organizations including the U.S. Department of State, USAID--Chemonics, and SANOFI",
+    "Designed and executed an impact evaluation of the Impulso Nuevo León Loan Guarantee Program, analyzing changes in beneficiaries' sales and employment to assess program effectiveness on firm performance",
+    "Created data-collection instruments for 80+ private-sector stakeholders in Honduras and El Salvador to inform the AMEXCID Jovenes Construyendo el Futuro program, supporting evidence generation for youth workforce policy",
+    "Conducted a mixed-methods study on quality of life with Atopic Dermatitis for SANOFI, combining interviews, surveys, and quantitative analysis for evidence-based recommendations to national health institutions",
+    "Developed institutional-strengthening toolkits for State Attorney General Offices; built measurement frameworks for recidivism monitoring in civic and criminal justice systems across multiple municipalities",
+    "Advised on best practices in agriculture, youth workforce development, and migration across El Salvador, Honduras, Guatemala, and Mexico, identifying enabling conditions for replicable development initiatives"),
 
   "Founder and Data Analyst", "DataCol", "Colima, Mexico", "May 2020 -- Jul. 2021",
     list(
-    "Led a government-funded analytics initiative for real-time COVID-19 monitoring in Colima, building time-series visuals for infection and testing metrics",
-    "Analyzed Google mobility datasets to inform public health strategies; delivered Python tools to the State Secretary of Health for cabinet briefings",
-    "Assessed Facebook political advertising during the 2021 state elections, providing insights on reach, audience, and engagement"),
+    "Led a government-funded analytics initiative for real-time COVID-19 monitoring, building time-series visualizations for the State Secretary of Health used in cabinet briefings; analyzed Google mobility datasets using Python to inform public health strategies"),
 
   "Consultant", "International Republican Institute", "Mexico City", "Aug. 2018 -- Jul. 2021",
     list(
-    "Coordinated the Security with Justice Program in five states with government, civil society, academia, and the private sector to promote ADR mechanisms",
-    "Facilitated 30+ workshops on Restorative Justice and ADR, training 1,100+ participants at awareness and technical levels",
-    "Collected, analyzed, and reported open data on alternative justice across 15 states, identifying best practices and improvement areas",
-    "Managed Monitoring, Evaluation, and Learning (MEL) indicators in the DevResults and Tableau, integrating real-time insights into program planning and stakeholder reporting"),
+    "Coordinated the Security with Justice Program in five Mexican states, engaging government counterparts, civil society, academia, and the private sector to promote ADR mechanisms; facilitated 30+ workshops training 1,100+ participants",
+    "Managed MEL indicators in DevResults and Tableau; collected, analyzed, and reported open data on alternative justice across 15 states, identifying best practices for institutional strengthening"),
 
   "Competitiveness Manager", "Coparmex", "Colima, México", "Jun. 2016 -- Aug. 2018",
     list(
-    "Directed capacity-building programs on business administration, productivity, tax reforms, and labor rights for affiliated companies",
-    "Produced research on security, justice, and economic trends to guide strategic decision-making for members and stakeholders")
+    "Directed capacity-building programs on business administration, productivity, and labor rights; produced research on security, justice, and economic trends for private-sector stakeholders")
 ) %>%
 detailed_entries(role, dates, company, loc, details)
 ```
 
 # Key skills and competencies
-  * Management consulting & strategy development
-  * Data analytics & visualization (Python, R, SQL, Excel, Looker Studio, Power BI, Tableau)
-  * Dashboarding, automation, and data engineering basics (APIs, pipelines)
-  * Experimental and quasi-experimental methods (A/B testing, diff-in-diff)
-  * Strategy and operations, KPI design, and reporting
-  * MEAL frameworks and program evaluation
-  * Quantitative & qualitative research (mixed methods)
-  * Stakeholder management and cross-functional collaboration
 
+**Methods:** Causal inference and impact evaluation (diff-in-diff, RCTs, pre-post designs), experimental and quasi-experimental design (A/B testing), MEAL frameworks and program evaluation, quantitative and qualitative research (mixed methods)
+
+**Tools:** Python, R, SQL, Excel, Looker Studio, Power BI, Tableau, DevResults; dashboarding, automation, and data engineering (APIs, pipelines); AI-assisted development tools (Claude Code, Copilot, Codex)
+
+**Domain Expertise:** Productive development programs, innovation and entrepreneurship policy, security and justice reform, youth workforce development, public health; stakeholder management across Latin America
+
+**Languages:** Spanish (native), English (professional fluency)
