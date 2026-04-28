@@ -1,0 +1,65 @@
+didi:
+  title: Senior Operations Analyst -- Mature Cities
+  location: Mexico City
+  date: Apr. 2025 -- Nov. 2025
+  description: DiDi Global Inc.
+  details:
+    - Led marketplace operations across three Mexican cities, overseeing a combined annual GMV of MXN 3.7B and a weekly incentives portfolio averaging MXN 4M
+    - Designed and executed randomized and quasi-experimental tests (A/B testing) to evaluate supply-demand balancing tactics on trips, fulfillment rates, user satisfaction, and other KPIs
+    - Built performance dashboards and automated reporting pipelines using Python, SQL, and Looker Studio; produced weekly analytical briefs for senior leadership with experiment results and action plans
+    - Partnered with regional and central teams (pricing, marketing, strategy, CX) to scale successful pilots and adapt evidence-based practices across markets
+
+datahuee:
+  title: Co-founder and Data Analyst
+  location: Mexico City
+  date: Aug. 2023 -- Present
+  description: Datahué
+  details:
+    - Designed and implemented a MEAL strategy for Fundación Amparo, including 60+ performance indicators to track program outcomes and inform decision-making
+    - Consolidated 100+ databases into a centralized repository using Python, Google Apps Script, SQL, and Looker Studio; led a three-person team for data collection, cleaning, and evidence-based reporting to executive directors
+
+soymas:
+  title: Strategy Analyst
+  location: Mexico City
+  date: Mar. 2025 -- Apr. 2025
+  description: Soy+ (soymas.la)
+  details:
+    - Built automated dashboards connected via APIs to real-time databases; unified Mailchimp, Meta API, Supabase, and Vercel data into structured datasets for campaign evaluation and user segmentation
+
+c230:
+  title: Senior Analyst
+  location: Mexico City
+  date: Jan. 2021 -- Mar. 2025
+  description: C230 Consulting and Fundación IDEA
+  details:
+    - Delivered eight projects in security/justice reform, M&E, interinstitutional coordination, process optimization, market analysis and development for government counterparts and international organizations including the U.S. Department of State, USAID--Chemonics, and SANOFI
+    - Designed and executed an impact evaluation of the Impulso Nuevo León Loan Guarantee Program, analyzing changes in beneficiaries' sales and employment to assess program effectiveness on firm performance
+    - Created data-collection instruments for 80+ private-sector stakeholders in Honduras and El Salvador to inform the AMEXCID Jovenes Construyendo el Futuro program, supporting evidence generation for youth workforce policy
+    - Conducted a mixed-methods study on quality of life with Atopic Dermatitis for SANOFI, combining interviews, surveys, and quantitative analysis for evidence-based recommendations to national health institutions
+    - Developed institutional-strengthening toolkits for State Attorney General Offices; built measurement frameworks for recidivism monitoring in civic and criminal justice systems across multiple municipalities
+    - Advised on best practices in agriculture, youth workforce development, and migration across El Salvador, Honduras, Guatemala, and Mexico, identifying enabling conditions for replicable development initiatives
+
+datacol:
+  title: Founder and Data Analyst
+  location: Colima, Mexico
+  date: May 2020 -- Jul. 2021
+  description: DataCol
+  details:
+    - Led a government-funded analytics initiative for real-time COVID-19 monitoring, building time-series visualizations for the State Secretary of Health used in cabinet briefings; analyzed Google mobility datasets using Python to inform public health strategies
+
+iri:
+  title: Consultant
+  location: Mexico City
+  date: Aug. 2018 -- Jul. 2021
+  description: International Republican Institute
+  details:
+    - Coordinated the Security with Justice Program in five Mexican states, engaging government counterparts, civil society, academia, and the private sector to promote ADR mechanisms; facilitated 30+ workshops training 1,100+ participants
+    - Managed MEL indicators in DevResults and Tableau; collected, analyzed, and reported open data on alternative justice across 15 states, identifying best practices for institutional strengthening
+
+coparmex:
+  title: Competitiveness Manager
+  location: Colima, México
+  date: Jun. 2016 -- Aug. 2018
+  description: Coparmex
+  details:
+    - Directed capacity-building programs on business administration, productivity, and labor rights; produced research on security, justice, and economic trends for private-sector stakeholders

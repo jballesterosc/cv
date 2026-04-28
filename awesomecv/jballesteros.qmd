@@ -1,0 +1,54 @@
+---
+title: "Resume"
+author:
+  firstname: Jay
+  lastname: Ballesteros-Cobián
+  address: "Chicago, IL"
+  position: "MPP student at The University of Chicago"
+  contacts:
+    - icon: fa envelope
+      text: jballesteros@uchicago.edu
+      url: "mailto:jballesteros@uchicago.edu"
+    - icon: fa github
+      text: jballesterosc
+      url: https://github.com/jballesterosc
+    - icon: fa linkedin
+      text: jay-ballesteros
+      url: https://linkedin.com/in/jay-ballesteros
+    - icon: fa globe
+      text: jballesterosc.github.io
+      url: https://jballesterosc.github.io
+format: awesomecv-typst
+brand:
+  typography: 
+    fonts:
+      - family: Roboto
+        source: google
+        weight: [100, 400, 700]
+      - family: Source Sans 3
+        source: google
+        weight: [100, 400, 700]
+        style: [normal, italic]
+    base: Source Sans 3
+  color:
+    primary: "#000000"
+    link: "#654a4c"
+  defaults: 
+    awesomecv-typst:
+      font-header: Roboto
+---
+## About Me
+
+Master of Public Policy candidate at the University of Chicago...
+
+## Education
+
+{{< yaml assets/yml/education.yml >}}
+
+## Experience
+
+{{< yaml assets/yml/experience.yml >}}
+
+## Key Skills and Competencies
+
+{{< yaml assets/yml/skills.yml >}}
