@@ -37,9 +37,6 @@ brand:
     awesomecv-typst:
       font-header: Roboto
 ---
-## About Me
-
-Master of Public Policy candidate at the University of Chicago...
 
 ## Education
 
